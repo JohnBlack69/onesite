@@ -1,0 +1,166 @@
+@charset "UTF-8";
+/*Основная часть,фон,заголовок и футер*/
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+a {
+    font-size: 1.7em;
+    font-family: 'Lobster', cursive;
+    float:left;
+    color: aliceblue;
+    padding-left: 37%;
+    padding-top: 15px;
+    }
+
+a:hover { 
+    color: rgb(234, 85, 85);
+    text-decoration: underline;
+    
+
+}     
+
+
+body {
+background-image: url('../img/body.jpeg');
+background-repeat: no-repeat;
+background-size: 100%;
+height: 100vh;
+background-attachment: fixed;
+width: 100%;
+}
+
+
+header, footer {
+    width: 98%;
+    background-color: rgb(0, 0, 0);
+    float: left;
+    
+}
+.vl {
+    padding-top: 2px;
+}
+
+header {
+    border-bottom: 2px solid silver;
+    padding: 1%;
+    height: 40px;
+   
+}
+
+footer {
+    border-top: 2px solid silver;
+    margin-top: 50vh;
+    padding-left: 30px;
+     height: 70px;
+    }
+
+.ar {
+    color: white;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+} 
+
+.br {
+    float: right;
+    padding-right: 40px;
+       
+}
+
+#brb img {
+    width: 30px;
+    height: auto;
+    padding-right: 20px;   
+}
+
+
+/*Основное меню,главной страницы*/
+.mu {
+     
+position:relative;
+
+top: 100px;
+left: 50px;
+width: 290px;
+height: 243px;
+
+
+background: #121111;
+border: 4px solid #C7C3C3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font-size: 26px;
+color: #fff;
+
+
+}
+
+.mnu {
+    position:relative;
+    left: 350px;
+    bottom: 50px;
+    width: 290px;
+    height: 243px;
+    
+    background: #121111;
+    border: 4px solid #C7C3C3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+   
+    font-size: 26px;
+    color: #fff;
+
+}
+
+.menu {
+position:relative;
+
+left: 650px;
+bottom: 200px;
+width: 290px;
+height: 243px;
+
+background: #121111;
+border: 4px solid #C7C3C3;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+font-size: 26px;
+color: #fff;
+
+}
+
+#a {
+    font-size: 1em;
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+    padding: 25%;
+   
+}
+
+#ar {
+    font-size: 1em;
+    font-family: 'Lobster', cursive;
+    color: aliceblue;
+    
+}
+
+#ar:hover{
+    color: rgb(234, 85, 85);
+    text-decoration: underline;
+}
+
+#a:hover {
+    color: rgb(234, 85, 85);
+    text-decoration: underline;
+}
+
+
+
+
+
+
+width: 290px;
+height: 243px;
